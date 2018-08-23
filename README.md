@@ -44,16 +44,13 @@ code|0이면 성공, 1이면 실패
 quickid|해당 QR의 독립된 생성 번호
 message|성공시, QR코드용 주소. 실패시 실패 관련 메세지 
 qrcode|QR코드의 이미지파일. 이를 포인트 제공자는 얻어서 자신의 서비스에 표시
-token|
-
 <pre>
 성공시 예: 
 	{
 		"code": 0,
 		"quickid": 346,
 		"message": "https:\/\/epay.miguyouxi.com\/jump-init.do?cmd=quick&country=kr&id=MzQ2",
-		"qrcode": "http:\/\/wara-kr.quickget.co\/uploadfile\/qrcode\/3139ed4b18377b36bcf1857bb8255489_logo.png",
-		"token": "1645r0c"
+		"qrcode": "http:\/\/wara-kr.quickget.co\/uploadfile\/qrcode\/3139ed4b18377b36bcf1857bb8255489_logo.png"
 	}
 	
 실패시 예: 
